@@ -1,0 +1,27 @@
+{
+  "name": "simpletron",
+  "version": "0.0.1",
+  "description": "Simple video optimizer ffmpeg powered",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Andres Reyes <chess.coach.ar@gmail.com>",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/profe-ajedrez/Simpletron.git",
+  },
+  "dependencies": {
+    "ffmpeg-static": "^4.2.4",
+    "jquery": "^3.5.1",
+    "material-design-icons": "^3.0.1",
+    "material-icons": "^0.3.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^9"
+  }
+}

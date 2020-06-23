@@ -1,0 +1,37 @@
+<template id="vso-vjob">
+    <style>
+        #shadow-vjob-root{
+
+        }
+        #content{
+
+        }
+
+    </style>
+    <div id="shadow-vjob-root line-${line}">
+      <div class='row'>
+          <div class='col m-6'>
+              <div>
+                  <table>
+                      <tbody>
+                          <tr><th>Archivo</th><td>${filename}</td></tr>
+                          <tr><th>Tamaño</th><td>${filesize}</td></tr>
+                      </tbody>
+                  </table>
+              </div> 
+          </div>
+          <div class='col md-6'>
+              <div>
+                <button id='btn-start-${line}' type='button' 
+                class="waves-effect waves-light ondemand_video  deep-orange darken-3 white-text btn-small"><i class="material-icons left">play_circle_filled</i>Iniciar</button>
+                <span id='spinner-${line}' style='display:none;'>
+                    <div id='progress-container${line}' class="progress">
+                        <div id='progress-${line}' class="determinate  deep-orange darken-3" style="width:0%"></div>
+                    </div>
+                </span> 
+              </div>
+          </div>
+      </div>
+    </div>
+</template>
+<script src="vso-vjob.js"></script>
