@@ -1,0 +1,11 @@
+# docs
+
+
+### JQuery
+
+`npm install jquery --save`
+
+
+Now add the following code inside a script tag (or a js file):
+
+`<script>window.$ = window.jQuery = require('jquery');</script>`
